@@ -13,7 +13,6 @@ if (context) {
 
 
 // Update canvas size if screen size changes
-// This prevents the dvd logo from being distorted
 window.onresize = function () {
   canvas.width = document.body.clientWidth;
   canvas.height = document.body.clientHeight;
